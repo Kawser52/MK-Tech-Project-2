@@ -19,15 +19,48 @@
 }
 
 /* start Navigation section */
+
 .carousel-caption {
     display: flex;
     top: 20%;
-    left: 45%;
+    left: 15%;
     justify-content: center;
     align-items: center;
+    
 }
 .carousel-caption h2{
+    background: rgb(237, 253, 239);
     font-size: 40px;
+    padding: 10px;
     font-weight: Bold;
-    color: rgb(3, 107, 3);
+    color: rgb(250, 0, 0);
+    border-radius: 5px;
+}
+
+
+/* Start About us content  */
+.about-us-content{
+    padding: 30px;
+}
+.about-us-content h2{
+    font-weight: 800;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+}
+.about-us-content p{
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: rgb(64, 62, 62);
+    text-align: justify;
+}
+
+.list-item a{
+    text-decoration: none;
+    list-style: none;
+    color: red;
+    margin: 10px 0px;
+}
+.list-item a:hover{
+    color: green;
+    transition: .5s;
 }
