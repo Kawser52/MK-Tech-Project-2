@@ -74,10 +74,30 @@
 }
 .service{
     padding: 10px;
-    margin: ;
 }
 .services:hover{
     background: rgb(239, 139, 139);
     transition: 0.3s;
     color: white;
+}
+
+
+.client{
+    padding: 70px 0px;
+}
+
+.accordion-button{
+    font-weight: bold;
+    color: red;
+    font-family: 'Montserrat';
+    padding: 20px;
+    margin-top:10px ;
+}
+.accordion-button:hover{
+    color: green;
+}
+
+
+.footer p a{
+ text-decoration: none;
 }
