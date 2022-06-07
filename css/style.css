@@ -64,3 +64,20 @@
     color: green;
     transition: .5s;
 }
+
+.services{
+    padding: 20px;
+    background: rgb(218, 253, 218);
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.service{
+    padding: 10px;
+    margin: ;
+}
+.services:hover{
+    background: rgb(239, 139, 139);
+    transition: 0.3s;
+    color: white;
+}
